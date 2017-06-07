@@ -1,0 +1,5 @@
+{
+	"name": "api",
+	"description": "A proxy api to the notify upstream service. Provides user and app authentication",
+	"version": "1.0.0"
+}

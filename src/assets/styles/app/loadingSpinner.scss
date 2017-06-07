@@ -1,0 +1,33 @@
+@import './variables.scss';
+
+$loadingSpinnerDiameter: 28px;
+$loadingSpinnerStrokeWidth: 4px;
+$loadingSpinnerStrokeColor: #FFF;
+$loadingSpinnerOpacity: .7;
+$loadingSpinnerStrokeStyle: solid;
+$loadingSpinnerSpeed: .7s;
+$margin-offset: 5px;
+
+.loading-spinner {
+  border: $loadingSpinnerStrokeWidth $loadingSpinnerStrokeStyle $loadingSpinnerStrokeColor;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-left-color: rgba(0, 0, 0, 0);
+  width: $loadingSpinnerDiameter - ($loadingSpinnerStrokeWidth * 2);
+  height: $loadingSpinnerDiameter - ($loadingSpinnerStrokeWidth * 2);
+  opacity: $loadingSpinnerOpacity;
+  border-radius: 50%;
+  animation: loadingSpinner $loadingSpinnerSpeed infinite linear;
+}
+
+button .loading-spinner {
+  margin-top: -$loadingSpinnerDiameter / 2 + $margin-offset;
+  margin-left: -$loadingSpinnerDiameter / 2 + $margin-offset;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+@keyframes loadingSpinner {
+    from { transform: rotate(0deg)   }
+    to   { transform: rotate(360deg) }
+}

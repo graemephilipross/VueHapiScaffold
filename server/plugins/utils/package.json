@@ -1,0 +1,5 @@
+{
+	"name": "utils",
+	"description": "Define auth cookies. Set up static routes",
+	"version": "1.0.0"
+}

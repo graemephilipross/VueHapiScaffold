@@ -1,0 +1,3 @@
+build/*.js
+config/*.js
+ecosystem.config.js

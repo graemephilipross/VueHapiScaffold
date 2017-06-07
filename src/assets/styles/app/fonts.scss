@@ -1,0 +1,37 @@
+$fontpath: '~assets/fonts/';
+
+@font-face {
+    font-family: 'robotothin';
+    src: url($fontpath + 'Roboto-Thin-webfont.eot');
+    src: url($fontpath + 'Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url($fontpath + 'Roboto-Thin-webfont.woff') format('woff'),
+         url($fontpath + 'Roboto-Thin-webfont.ttf') format('truetype'),
+         url($fontpath + 'Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url($fontpath + 'Roboto-Regular-webfont.eot');
+    src: url($fontpath + 'Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url($fontpath + 'Roboto-Regular-webfont.woff') format('woff'),
+         url($fontpath + 'Roboto-Regular-webfont.ttf') format('truetype'),
+         url($fontpath + 'Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url($fontpath + 'Roboto-Bold-webfont.eot');
+    src: url($fontpath + 'Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url($fontpath + 'Roboto-Bold-webfont.woff') format('woff'),
+         url($fontpath + 'Roboto-Bold-webfont.ttf') format('truetype'),
+         url($fontpath + 'Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

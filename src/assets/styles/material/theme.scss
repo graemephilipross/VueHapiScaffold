@@ -1,0 +1,7 @@
+// Override default theme behavior
+
+@import "~app/variables.scss";
+
+.md-theme-buttons.md-button:not([disabled]).md-primary.md-raised {
+  background-color: $oub-blue !important;
+}

@@ -1,0 +1,54 @@
+@import "~app/variables.scss";
+
+.md-theme-default.md-checkbox .md-ink-ripple {
+  color: $oub-blue !important;
+}
+
+.md-theme-default.md-checkbox.md-checked .md-checkbox-container {
+  background-color: $oub-blue !important;
+  border-color: $oub-blue !important;
+}
+
+.md-theme-default.md-checkbox.md-disabled.md-checked .md-checkbox-container {
+    background-color: rgba(0,0,0,0.26) !important;
+    border-color: transparent !important;
+}
+
+.md-theme-default.md-radio.md-checked .md-radio-container {
+    border-color: $oub-blue-dark !important;
+}
+
+.md-theme-default.md-radio.md-checked .md-ink-ripple {
+    color: $oub-blue-dark !important;
+}
+
+.md-theme-default.md-radio .md-radio-container:after {
+    background-color: $oub-blue-dark !important;
+}
+
+.md-checkbox .md-checkbox-container {
+  width: 25px;
+  height: 25px;
+  border: 3px solid $oub-grey;
+}
+
+.md-checkbox .md-checkbox-container:after {
+  width: 9px;
+  height: 19px;
+  top: -2px;
+  left: 5px;
+  border: 3px solid #fff;
+  border-top: 0;
+  border-left: 0;
+}
+
+.controls {
+  .md-radio {
+    width: 47%;
+  }
+
+  .md-radio .md-radio-container {
+    height: 22px;
+    width: 22px;
+  }
+}

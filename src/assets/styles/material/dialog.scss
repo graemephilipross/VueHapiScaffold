@@ -1,0 +1,18 @@
+.md-dialog {
+  width: 60%;
+  overflow: visible;
+
+  .calendar {
+    position: fixed;
+  }
+}
+
+.show-column-dialog {
+  .md-checkbox {
+    display: block;
+
+    .md-checkbox-container {
+      float: left;
+    }
+  }
+}

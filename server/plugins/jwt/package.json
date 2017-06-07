@@ -1,0 +1,5 @@
+{
+	"name": "jwt",
+	"description": "Serves the app. Uses jwt authentication",
+	"version": "1.0.0"
+}

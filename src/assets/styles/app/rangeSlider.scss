@@ -1,0 +1,16 @@
+@import './variables.scss';
+
+.slider {
+  .range-slider-fill {
+    background-color: $primary-color;
+  }
+
+  .range-slider-knob {
+    background-color: $primary-color;
+    border: none;
+
+    &::before {
+      background: $primary-color;
+    }
+  }
+}

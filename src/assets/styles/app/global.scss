@@ -1,0 +1,109 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'robotoregular', Helvetica, Arial, sans-serif;
+}
+
+.font-bold {
+  font-family: 'robotobold', Helvetica, Arial, sans-serif;
+}
+
+.font-thin {
+  font-family: 'robotothin', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 4.4rem;
+  line-height: 5rem;
+}
+
+h2 {
+  font-size: 3.8rem;
+  line-height: 4.4rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+}
+
+h4 {
+  font-size: 2.8rem;
+  line-height: 3.4rem;
+}
+
+h5 {
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+}
+
+h6 {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+li {
+
+}
+
+.datepicker-wrapper {
+  position: relative;
+
+  label {
+    display: block;
+    text-align: left;
+  }
+
+  input {
+    padding-left: 30px;
+  }
+
+  .md-icon {
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    color: $primary-dark;
+    top: 4px;
+  }
+}
+
+input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(#000, .12);
+  width: 100%;
+  height: 32px;
+  color: $primary-dark;
+  font-size: 1.4rem;
+}
+
+.go-back {
+  display: block;
+  color: $grey-dark !important;
+  border-bottom: 1px solid $grey-dark;
+  width: 100%;
+  margin: 15px auto;
+  padding-bottom: 3px;
+  width: 70px;
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+.validation-error {
+  color: $error-color;
+  opacity: 0.8;
+  bottom: 0;
+}

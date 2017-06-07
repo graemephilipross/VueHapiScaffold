@@ -1,0 +1,5 @@
+{
+	"name": "ping",
+	"description": "Api health check",
+	"version": "1.0.0"
+}
